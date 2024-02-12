@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kaynak Dosyalar">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyaları">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyaları\ImGui">
+      <UniqueIdentifier>{be65e251-a23b-47b7-822d-79a32af93c7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </Library>
+    <Library Include="İmGui\d3d9.lib">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="RecoilTable.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="termcolor.hpp">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="İmGui\imconfig.h">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="İmGui\imgui.h">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="İmGui\imgui_impl_dx9.h">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="İmGui\imgui_impl_win32.h">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="İmGui\imgui_internal.h">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="İmGui\imstb_rectpack.h">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="İmGui\imstb_textedit.h">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="İmGui\imstb_truetype.h">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="31key.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="İmGui\LicenseSystem.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="İmGui\imgui.cpp">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="İmGui\imgui_demo.cpp">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="İmGui\imgui_impl_dx9.cpp">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="İmGui\imgui_draw.cpp">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="İmGui\imgui_impl_win32.cpp">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="İmGui\imgui_tables.cpp">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="İmGui\imgui_widgets.cpp">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </None>
+    <None Include="imgui.ini">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </None>
+    <None Include="Resource.aps">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Dtafalonso-Android-L-Chrome.ico">
+      <Filter>Kaynak Dosyaları\ImGui</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
