@@ -1,0 +1,2 @@
+# -Rust-Script-
+⚪Rust Script ⚫
